@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16033DBB1D82602F000FC40B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16033DBA1D82602F000FC40B /* AppDelegate.swift */; };
+		16033DBD1D82602F000FC40B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16033DBC1D82602F000FC40B /* ViewController.swift */; };
+		16033DC01D82602F000FC40B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16033DBE1D82602F000FC40B /* Main.storyboard */; };
+		16033DC31D82602F000FC40B /* IntelligentCampus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16033DC11D82602F000FC40B /* IntelligentCampus.xcdatamodeld */; };
+		16033DC51D82602F000FC40B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16033DC41D82602F000FC40B /* Assets.xcassets */; };
+		16033DC81D82602F000FC40B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16033DC61D82602F000FC40B /* LaunchScreen.storyboard */; };
+		16033DD31D82602F000FC40B /* IntelligentCampusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16033DD21D82602F000FC40B /* IntelligentCampusTests.swift */; };
+		16033DDE1D82602F000FC40B /* IntelligentCampusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16033DDD1D82602F000FC40B /* IntelligentCampusUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16033DCF1D82602F000FC40B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16033DAF1D82602F000FC40B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16033DB61D82602F000FC40B;
+			remoteInfo = IntelligentCampus;
+		};
+		16033DDA1D82602F000FC40B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16033DAF1D82602F000FC40B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16033DB61D82602F000FC40B;
+			remoteInfo = IntelligentCampus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16033DB71D82602F000FC40B /* IntelligentCampus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntelligentCampus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16033DBA1D82602F000FC40B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16033DBC1D82602F000FC40B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16033DBF1D82602F000FC40B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16033DC21D82602F000FC40B /* IntelligentCampus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IntelligentCampus.xcdatamodel; sourceTree = "<group>"; };
+		16033DC41D82602F000FC40B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16033DC71D82602F000FC40B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16033DC91D82602F000FC40B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16033DCE1D82602F000FC40B /* IntelligentCampusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelligentCampusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16033DD21D82602F000FC40B /* IntelligentCampusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelligentCampusTests.swift; sourceTree = "<group>"; };
+		16033DD41D82602F000FC40B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16033DD91D82602F000FC40B /* IntelligentCampusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelligentCampusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16033DDD1D82602F000FC40B /* IntelligentCampusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelligentCampusUITests.swift; sourceTree = "<group>"; };
+		16033DDF1D82602F000FC40B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16033DB41D82602F000FC40B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16033DCB1D82602F000FC40B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16033DD61D82602F000FC40B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16033DAE1D82602F000FC40B = {
+			isa = PBXGroup;
+			children = (
+				16033DB91D82602F000FC40B /* IntelligentCampus */,
+				16033DD11D82602F000FC40B /* IntelligentCampusTests */,
+				16033DDC1D82602F000FC40B /* IntelligentCampusUITests */,
+				16033DB81D82602F000FC40B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16033DB81D82602F000FC40B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16033DB71D82602F000FC40B /* IntelligentCampus.app */,
+				16033DCE1D82602F000FC40B /* IntelligentCampusTests.xctest */,
+				16033DD91D82602F000FC40B /* IntelligentCampusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16033DB91D82602F000FC40B /* IntelligentCampus */ = {
+			isa = PBXGroup;
+			children = (
+				16033DBA1D82602F000FC40B /* AppDelegate.swift */,
+				16033DBC1D82602F000FC40B /* ViewController.swift */,
+				16033DBE1D82602F000FC40B /* Main.storyboard */,
+				16033DC41D82602F000FC40B /* Assets.xcassets */,
+				16033DC61D82602F000FC40B /* LaunchScreen.storyboard */,
+				16033DC91D82602F000FC40B /* Info.plist */,
+				16033DC11D82602F000FC40B /* IntelligentCampus.xcdatamodeld */,
+			);
+			path = IntelligentCampus;
+			sourceTree = "<group>";
+		};
+		16033DD11D82602F000FC40B /* IntelligentCampusTests */ = {
+			isa = PBXGroup;
+			children = (
+				16033DD21D82602F000FC40B /* IntelligentCampusTests.swift */,
+				16033DD41D82602F000FC40B /* Info.plist */,
+			);
+			path = IntelligentCampusTests;
+			sourceTree = "<group>";
+		};
+		16033DDC1D82602F000FC40B /* IntelligentCampusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16033DDD1D82602F000FC40B /* IntelligentCampusUITests.swift */,
+				16033DDF1D82602F000FC40B /* Info.plist */,
+			);
+			path = IntelligentCampusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16033DB61D82602F000FC40B /* IntelligentCampus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16033DE21D82602F000FC40B /* Build configuration list for PBXNativeTarget "IntelligentCampus" */;
+			buildPhases = (
+				16033DB31D82602F000FC40B /* Sources */,
+				16033DB41D82602F000FC40B /* Frameworks */,
+				16033DB51D82602F000FC40B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntelligentCampus;
+			productName = IntelligentCampus;
+			productReference = 16033DB71D82602F000FC40B /* IntelligentCampus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16033DCD1D82602F000FC40B /* IntelligentCampusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16033DE51D82602F000FC40B /* Build configuration list for PBXNativeTarget "IntelligentCampusTests" */;
+			buildPhases = (
+				16033DCA1D82602F000FC40B /* Sources */,
+				16033DCB1D82602F000FC40B /* Frameworks */,
+				16033DCC1D82602F000FC40B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16033DD01D82602F000FC40B /* PBXTargetDependency */,
+			);
+			name = IntelligentCampusTests;
+			productName = IntelligentCampusTests;
+			productReference = 16033DCE1D82602F000FC40B /* IntelligentCampusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16033DD81D82602F000FC40B /* IntelligentCampusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16033DE81D82602F000FC40B /* Build configuration list for PBXNativeTarget "IntelligentCampusUITests" */;
+			buildPhases = (
+				16033DD51D82602F000FC40B /* Sources */,
+				16033DD61D82602F000FC40B /* Frameworks */,
+				16033DD71D82602F000FC40B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16033DDB1D82602F000FC40B /* PBXTargetDependency */,
+			);
+			name = IntelligentCampusUITests;
+			productName = IntelligentCampusUITests;
+			productReference = 16033DD91D82602F000FC40B /* IntelligentCampusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16033DAF1D82602F000FC40B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tuzhiyi;
+				TargetAttributes = {
+					16033DB61D82602F000FC40B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					16033DCD1D82602F000FC40B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 16033DB61D82602F000FC40B;
+					};
+					16033DD81D82602F000FC40B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 16033DB61D82602F000FC40B;
+					};
+				};
+			};
+			buildConfigurationList = 16033DB21D82602F000FC40B /* Build configuration list for PBXProject "IntelligentCampus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16033DAE1D82602F000FC40B;
+			productRefGroup = 16033DB81D82602F000FC40B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16033DB61D82602F000FC40B /* IntelligentCampus */,
+				16033DCD1D82602F000FC40B /* IntelligentCampusTests */,
+				16033DD81D82602F000FC40B /* IntelligentCampusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16033DB51D82602F000FC40B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16033DC81D82602F000FC40B /* LaunchScreen.storyboard in Resources */,
+				16033DC51D82602F000FC40B /* Assets.xcassets in Resources */,
+				16033DC01D82602F000FC40B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16033DCC1D82602F000FC40B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16033DD71D82602F000FC40B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16033DB31D82602F000FC40B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16033DC31D82602F000FC40B /* IntelligentCampus.xcdatamodeld in Sources */,
+				16033DBD1D82602F000FC40B /* ViewController.swift in Sources */,
+				16033DBB1D82602F000FC40B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16033DCA1D82602F000FC40B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16033DD31D82602F000FC40B /* IntelligentCampusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16033DD51D82602F000FC40B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16033DDE1D82602F000FC40B /* IntelligentCampusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16033DD01D82602F000FC40B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16033DB61D82602F000FC40B /* IntelligentCampus */;
+			targetProxy = 16033DCF1D82602F000FC40B /* PBXContainerItemProxy */;
+		};
+		16033DDB1D82602F000FC40B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16033DB61D82602F000FC40B /* IntelligentCampus */;
+			targetProxy = 16033DDA1D82602F000FC40B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16033DBE1D82602F000FC40B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16033DBF1D82602F000FC40B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16033DC61D82602F000FC40B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16033DC71D82602F000FC40B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16033DE01D82602F000FC40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16033DE11D82602F000FC40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16033DE31D82602F000FC40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IntelligentCampus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huiyakj.www.anyang.IntelligentCampus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16033DE41D82602F000FC40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IntelligentCampus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huiyakj.www.anyang.IntelligentCampus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		16033DE61D82602F000FC40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IntelligentCampusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huiyakj.www.anyang.IntelligentCampusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntelligentCampus.app/IntelligentCampus";
+			};
+			name = Debug;
+		};
+		16033DE71D82602F000FC40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IntelligentCampusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huiyakj.www.anyang.IntelligentCampusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntelligentCampus.app/IntelligentCampus";
+			};
+			name = Release;
+		};
+		16033DE91D82602F000FC40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IntelligentCampusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huiyakj.www.anyang.IntelligentCampusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IntelligentCampus;
+			};
+			name = Debug;
+		};
+		16033DEA1D82602F000FC40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IntelligentCampusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huiyakj.www.anyang.IntelligentCampusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IntelligentCampus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16033DB21D82602F000FC40B /* Build configuration list for PBXProject "IntelligentCampus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16033DE01D82602F000FC40B /* Debug */,
+				16033DE11D82602F000FC40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16033DE21D82602F000FC40B /* Build configuration list for PBXNativeTarget "IntelligentCampus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16033DE31D82602F000FC40B /* Debug */,
+				16033DE41D82602F000FC40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16033DE51D82602F000FC40B /* Build configuration list for PBXNativeTarget "IntelligentCampusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16033DE61D82602F000FC40B /* Debug */,
+				16033DE71D82602F000FC40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16033DE81D82602F000FC40B /* Build configuration list for PBXNativeTarget "IntelligentCampusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16033DE91D82602F000FC40B /* Debug */,
+				16033DEA1D82602F000FC40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		16033DC11D82602F000FC40B /* IntelligentCampus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				16033DC21D82602F000FC40B /* IntelligentCampus.xcdatamodel */,
+			);
+			currentVersion = 16033DC21D82602F000FC40B /* IntelligentCampus.xcdatamodel */;
+			path = IntelligentCampus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 16033DAF1D82602F000FC40B /* Project object */;
+}
